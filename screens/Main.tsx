@@ -6,7 +6,7 @@ const Main: React.FC = () => {
     <>
       <WebView
         source={{
-          uri: 'http://localhost:3000',
+          uri: 'http://192.168.35.237:3000',
         }}
       />
     </>
