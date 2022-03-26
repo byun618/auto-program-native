@@ -9,7 +9,7 @@ const Home: React.FC = () => {
         <SafeAreaView style={{ flex: 1, backgroundColor: 'white' }}>
           <WebView
             source={{
-              uri: 'http://localhost:3000',
+              uri: 'https://s6nfront.duckdns.org',
             }}
           />
         </SafeAreaView>
